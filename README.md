@@ -69,7 +69,7 @@ Monthly Revenue Trend
 ![Monthly Revenue Trend](04_charts/01_monthly_revenue.png)
 
 Top Revenue-Generating Categories
-![Top Revenue-Generating Categories](04_charts/02_top_revenue_generating_states,png.png)
+![Top Revenue-Generating Categories](04_charts/05_top_revenue_generating_states,png.png)
 
 
 

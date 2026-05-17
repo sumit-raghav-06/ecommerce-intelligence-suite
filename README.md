@@ -118,34 +118,19 @@ Detailed findings are available in `insights.md`.
 ## 📁 Project Structure
 
 ```
-ecommerce-intelligence-suite/
+## 📁 Project Structure
+
+```text
+📁 ecommerce-intelligence-suite
 │
-├── 01_data/
-│   ├── raw/
-│   └── cleaned/
-│
-├── 02_notebooks/
-│   └── ecommerce_analysis.ipynb
-│
-├── 03_sql_queries/
-│   └── business_queries.sql
-│
-├── 04_charts/
-│   ├── 01_monthly_revenue.png
-│   ├── 02_top_revenue_categories.png
-│   ├── 03_top_customer_cities.png
-│   ├── 04_payment_method_distribution.png
-│   ├── 05_top_revenue_states.png
-│   └── 06_avg_delivery_time.png
-│
-├── 05_dashboard/
-│   └── ecommerce_sales_dashboard.pbix
-│
-├── 06_reports/
-│   └── insights.md
-│
-├── README.md
-├── requirements.txt
+├── 📁 01_data                   # Raw and processed datasets
+├── 📁 02_notebooks              # Jupyter notebooks for EDA and customer segmentation
+├── 📁 03_sql_queries            # SQL scripts for business metrics and RFM calculation
+├── 📁 04_charts                 # Generated data visualizations & PNG plots
+├── 📁 05_dashboard              # Power BI (.pbix) dashboard files
+├── 📁 06_reports                # Final analytical insights and business documentation
+├── 📄 requirements.txt          # Python dependencies and package versions
+└── 📄 README.md                 # Project executive summary and documentation
 ```
 
 ---

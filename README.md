@@ -66,12 +66,27 @@ Charts are stored in the project directory as `.png` files.
 ## 📊 Sample Visualizations
 
 Monthly Revenue Trend
+![Monthly Revenue Trend](04_charts/01_monthly_revenue.png)
 
 Top Revenue-Generating Categories
+![Top Revenue-Generating Categories](04_charts/02_top_revenue_generating_categories.png)
 
-Payment Method Distribution
+
 
 ---
+
+
+📊 Dashboard
+
+Below is the dashboard built using Power BI:
+
+![Dashboard](05_dashboard/dashboard_preview.png)
+
+📁 You can explore the full interactive dashboard using the ".pbix" file in the "04_dashboard/" folder.
+
+
+---
+
 
 ## 🎯 RFM Customer Segmentation
 

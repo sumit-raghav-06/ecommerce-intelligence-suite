@@ -68,8 +68,8 @@ Charts are stored in the project directory as `.png` files.
 Monthly Revenue Trend
 ![Monthly Revenue Trend](04_charts/01_monthly_revenue.png)
 
-Top Revenue-Generating Categories
-![Top Revenue-Generating Categories](04_charts/05_top_revenue_generating_states,png.png)
+Top Revenue-Generating States
+![Top Revenue-Generating States](04_charts/05_Top_Revenue_Generating_states,png.png)
 
 
 

@@ -120,7 +120,6 @@ Detailed findings are available in `insights.md`.
 ```
 ## 📁 Project Structure
 
-```text
 📁 ecommerce-intelligence-suite
 │
 ├── 📁 01_data                   # Raw and processed datasets

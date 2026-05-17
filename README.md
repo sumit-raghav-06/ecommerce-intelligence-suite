@@ -149,7 +149,7 @@ pip install pandas matplotlib seaborn
 jupyter notebook
 ```
 
-4. Open and run `oli.ipynb` from top to bottom.
+4. Open and run `ecommerce_analysis_eda.ipynb` from top to bottom.
 
 > The SQLite database (`ecommerce_analysis.db`) is created automatically — no setup needed.
 

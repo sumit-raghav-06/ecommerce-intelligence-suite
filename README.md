@@ -1,1 +1,170 @@
-# ecommerce-intelligence-suite
+# 📊 E-Commerce Business Intelligence
+
+End-to-end e-commerce business analysis using SQL, Python, exploratory data analysis (EDA), and customer segmentation to identify revenue drivers, purchasing behavior, and operational performance.
+
+---
+
+## 📌 Project Overview
+
+E-commerce platforms generate vast amounts of transactional data across customers, products, payments, and logistics. Extracting actionable insights from this data is critical for improving revenue, retention, and operational efficiency.
+
+This project analyzes the **Olist Brazilian E-Commerce dataset** to identify high-performing product categories, understand customer purchasing behavior, evaluate payment trends, assess delivery performance, and segment customers using the RFM framework.
+
+The project combines SQL analysis, data visualization, exploratory data analysis (EDA), and customer segmentation to simulate a real-world business analytics workflow.
+
+---
+
+## 🎯 Objectives
+
+* Perform data cleaning and preprocessing across 5 relational datasets
+* Analyze business KPIs, product performance, and regional revenue using SQL
+* Visualize key trends across revenue, payments, cities, and delivery
+* Segment customers using the **RFM framework** (Recency, Frequency, Monetary)
+* Generate actionable business insights for customer retention and growth
+
+---
+
+## 🛠 Tools & Technologies
+
+* Python
+* Pandas
+* SQLite
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 🗄 SQL-Based Analysis
+
+SQL queries were used to analyze:
+
+* Total revenue, orders, and average order value (KPIs)
+* Top revenue-generating product categories
+* Most active customer cities and states
+* Payment method distribution and average order value by payment type
+* Delivery time, delayed orders, and early delivery performance
+* RFM customer segmentation using window functions
+
+---
+
+## 📈 Exploratory Data Analysis (EDA)
+
+The project includes visual analysis of:
+
+* Monthly revenue trends
+* Top 10 revenue-generating product categories
+* Most active customer cities
+* Payment method distribution
+* Top revenue-generating states
+* Average delivery time
+
+Charts are stored in the project directory as `.png` files.
+
+---
+
+## 📊 Sample Visualizations
+
+Monthly Revenue Trend
+
+Top Revenue-Generating Categories
+
+Payment Method Distribution
+
+---
+
+## 🎯 RFM Customer Segmentation
+
+Customers are scored on **Recency**, **Frequency**, and **Monetary** value using SQL `NTILE()` window functions and classified into 6 business segments:
+
+| Segment | Customers | Action |
+|---|---|---|
+| Needs Attention | 39,984 | Re-engage with personalised offers |
+| At Risk | 23,843 | Win-back campaign urgently |
+| Potential Loyal | 11,782 | Push towards repeat purchase |
+| Loyal | 6,078 | Reward and retain |
+| Champion | 5,982 | VIP treatment, early access |
+| New Customer | 5,688 | 90-day onboarding programme |
+
+---
+
+## 📌 Key Insights
+
+* São Paulo state contributes **$5.92M (38%)** of total platform revenue
+* **Health & Beauty** is the #1 revenue-generating category at **$1.44M**
+* **74%** of all transactions are made via credit card, with an average of **2.85 installments**
+* **89%** of orders are delivered before the estimated date
+* **67% of customers** fall into "At Risk" or "Needs Attention" — a retention problem, not an acquisition one
+
+Detailed findings are available in `insights.md`.
+
+---
+
+## 📁 Project Structure
+
+```
+ecommerce-intelligence-suite/
+│
+├── 01_data/
+│   ├── raw/
+│   └── cleaned/
+│
+├── 02_notebooks/
+│   └── ecommerce_analysis.ipynb
+│
+├── 03_sql_queries/
+│   └── business_queries.sql
+│
+├── 04_charts/
+│   ├── 01_monthly_revenue.png
+│   ├── 02_top_revenue_categories.png
+│   ├── 03_top_customer_cities.png
+│   ├── 04_payment_method_distribution.png
+│   ├── 05_top_revenue_states.png
+│   └── 06_avg_delivery_time.png
+│
+├── 05_dashboard/
+│   └── ecommerce_sales_dashboard.pbix
+│
+├── 06_reports/
+│   └── insights.md
+│
+├── README.md
+├── requirements.txt
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository and place all CSV files in the same folder as the notebook.
+2. Install dependencies:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+3. Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+4. Open and run `oli.ipynb` from top to bottom.
+
+> The SQLite database (`ecommerce_analysis.db`) is created automatically — no setup needed.
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates an end-to-end data analytics workflow including:
+
+* Data cleaning and preprocessing
+* SQL-based business analysis
+* Exploratory data analysis (EDA)
+* Data visualization
+* RFM customer segmentation
+* Business-focused interpretation of results
+
+The insights generated from this analysis can help e-commerce businesses improve customer retention strategies, optimize logistics, and prioritize high-revenue product categories for sustainable growth.

@@ -71,6 +71,15 @@ Monthly Revenue Trend
 Top Revenue-Generating States
 ![Top Revenue-Generating States](04_charts/05_Top_Revenue_Generating_states,png.png)
 
+Most Active Cities
+![Top Revenue-Generating States](04_charts/03_most_active_cities.png)
+
+Average delivery time analysis
+
+![Top Revenue-Generating States](04_charts/06_average_delivery_time_analysis.png)
+
+
+
 
 
 ---
